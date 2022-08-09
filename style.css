@@ -1,0 +1,340 @@
+.A{
+    /*This is for the Side Table*/
+    width:20%;
+    border:1px solid rgb(243, 239, 239);
+    height:100vh;
+    background-color: rgb(255, 255, 210);
+    position:fixed;
+}
+ .head{
+
+
+}
+    
+.A0{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 210);
+    
+}
+
+.A2{
+    Color:green;
+    align-items: center;
+    
+}
+
+.B{
+    background-color:rgb(118, 228, 118);
+    color:green;
+    height:50px;
+    
+}
+.C{
+    background-color:rgb(118, 227, 117); 
+    color:green;
+    height:50px;
+}
+
+.D{
+    background-color:rgb(118, 229, 118);
+    color:green;
+    height:50px;
+}
+.pic{
+    
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: white;
+   margin-left: 5%;
+   border-radius: 10px;
+   margin-top: 50%;
+
+}
+.pic img{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+}
+
+.Create{
+    height:70px;
+    width:100%;
+    border:1px solid rgb(157, 152, 152);
+}
+
+
+.E{
+    margin-top:310px;
+    justify-content:right;
+}
+.F{
+    width:80%;
+    background-color:white;
+    align-items: flex-start;
+    padding:20px;
+    position: fixed;
+    margin-left:18%;
+}
+
+.G{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: green;
+    justify-content: space-between;
+    position: fixed;
+    width:75%;
+    background-color: #f2f2f2;
+}
+
+
+ .search{
+  border:none;
+  height:30px;
+  width:230px;
+  
+ }
+    
+
+.Border{
+border:1px solid black;
+display:flex;
+align-items: center;
+border-radius:5px;
+
+}
+
+
+.H{
+    width:1000px;
+    height:63px;
+    background-color: rgb(253, 253, 219);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.H .As{
+    margin-left:650px;
+    margin-bottom:10px;
+    color:rgb(11, 11, 11);
+    background-color:rgb(74, 170, 74);
+    border-radius:9px;
+    height:30px;
+     width:130px;
+     
+
+}
+ .Ma button{
+ background-color:white;
+ border-radius:3px;
+ color:black;
+ border-style: none;
+ height:30px;
+ width:100px;
+}
+.Da button{
+    background-color: rgb(200, 253, 200);
+    color:black;
+    border-style: none;
+    height:30px;
+    width:130px;
+    border-radius:3px;
+}
+
+.image{
+    height:30px;
+    width:130px;
+}
+
+.J{
+    border: 1px solid rgb(247, 244, 194);
+    width:100%;
+    background-color: rgb(250, 254, 197);
+    margin-top:40px;
+}
+
+ /*For the Flexing the images in the web,  Position fixes the item */
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    top:20%;
+    column-gap:30px;
+    position: relative;
+}
+    /*This is for the Add Icon laying at the bottom of the web page*/
+.Go{
+    height:40px;
+    border-radius:100px;
+    background-color: rgb(45, 234, 42);
+    position:fixed;
+    right:3%;
+    bottom:3%;
+}
+
+
+
+.J img{
+    width: 100%;
+    height: 180px;
+}
+.J .K{
+    color:green;
+    background-color: rgb(246, 249, 205);
+    border: 1px solid rgb(203, 194, 194);
+    margin-left:230px;
+    border-top:0px;
+   
+}
+.L{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .L button{
+    height:25px;
+    width:100px;
+    background-color:rgb(248, 247, 223);
+    color:rgb(79, 218, 79);
+    border:antiquewhite;
+    display:flex;
+    flex-direction: row;
+  }
+
+
+
+
+  .M{
+    border: 1px solid rgb(203, 194, 194);
+    height:250px;
+    width:210px;
+    background-color: rgb(246, 249, 205);
+    margin-left: 70px;
+    flex:direction;
+    flex-direction:row;
+  }
+  .M .K{
+        color:green;
+        background-color: rgb(246, 249, 205);
+        border: 1px solid rgb(203, 194, 194);
+        margin-left:130px;
+        margin-top:5%;
+  }
+  .G{
+    display: flex;
+    flex-direction: row;
+  }
+  .Mako{
+    position:fixed; 
+  }
+
+
+  .Bord{
+    height:20px;
+    width:20px;
+    padding-right:4000;
+  }
+  .Button .create:hover{
+    background-color:crimson;
+    color:white;
+    padding:0px;
+  }
+ /* To cater For Medium Screen When the Website Is Opened*/
+  @media(max-width:992px){
+    .A2{
+        font-size: 40px;
+        grid-template-columns: auto auto;
+        row-gap: 4%;
+    }
+  }
+
+  /*For Small Screens Like PhoneS*/
+  @media(max-width:625px){
+    .A2{
+
+    }
+  }
+ /* 
+  var firsName = "Kweku";
+  let aged="35"
+  const isMarried = true;
+ var ages = ["text","text",12,24]  //for list making
+
+
+var a = 1;
+ var b = 12;
+ b=67;
+ console.log(a+b);
+ let firstName ="kweku";
+ let lastName = "frimpong";
+
+
+  var username = "Nancy";
+ var age =22;
+
+ if(username = "Nancy" && age <22){
+   console.log("You are not allowed to enter");
+ }else{
+   console.log("Welcome Nancy")
+ }
+	
+
+ //Arithmetic
+let num1 = 3;
+if(num1 %2 ==0){
+  console.log("Even");
+}else{
+  console.log("Odd");
+}
+
+
+ 
+ //Operaters
+ //Arithmetic operators
+  + - * / %
+ 
+  //logical operators
+  && //And
+  || //or
+  ! //not
+ 
+  //comparison operators
+  == ===  != !== > < >= <= ;
+
+  console.log(firstName+ lastName)
+ //control flow statements
+ if (username =="kweku" && password== "password") {
+  //do something
+  open timeline
+ } else{
+  enter correct password
+ }
+if(condition){
+  do something
+}else if(condition){
+  do something
+}
+  */
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
